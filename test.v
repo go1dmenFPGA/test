@@ -3,5 +3,6 @@ module test (input a,
              output y);
 
     assign y = a | b;
+    assign y = ~b;
     
 endmodule
